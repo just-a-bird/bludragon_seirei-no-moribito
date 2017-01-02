@@ -11,7 +11,7 @@
       <ChapterFlagEnabled>1</ChapterFlagEnabled>
       <ChapterTimeStart>00:00:00.000000000</ChapterTimeStart>
       <ChapterDisplay>
-        <ChapterString>OP</ChapterString>
+        <ChapterString>Opening Theme</ChapterString>
         <ChapterLanguage>eng</ChapterLanguage>
       </ChapterDisplay>
     </ChapterAtom>
@@ -30,7 +30,7 @@
       <ChapterFlagHidden>0</ChapterFlagHidden>
       <ChapterFlagEnabled>1</ChapterFlagEnabled>
       <ChapterDisplay>
-        <ChapterString>ED</ChapterString>
+        <ChapterString>Ending Theme</ChapterString>
         <ChapterLanguage>eng</ChapterLanguage>
       </ChapterDisplay>
       <ChapterTimeStart>00:23:07.000000000</ChapterTimeStart>
