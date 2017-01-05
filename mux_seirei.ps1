@@ -40,7 +40,7 @@ function Convert-Attachments([FileInfo[]]$Files, [string]$MimeType ) {
         [void]$commands.AddRange([string[]]@(
             "--attachment-name `"$($file.BaseName)`""
             "--attachment-mime-type `"$MimeType`""
-            "--attach-file `"$(Resolve-Path -LiteralPath $file -Relative)`""
+            "--attach-file `"$(Optimize-Path $file)`""
         ))
     }
     return $commands
